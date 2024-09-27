@@ -18,4 +18,4 @@ if unit.lower() == "f":
 elif unit.lower() == "c":
     convert_to_fahrenheit(value)
 else : 
-    print("you entered a wrong unit !")         
+    print("Invalid temperature. Please enter a numeric value.")         
