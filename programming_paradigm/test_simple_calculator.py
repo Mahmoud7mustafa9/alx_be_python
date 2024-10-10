@@ -12,7 +12,7 @@ class TestCalc (unittest.TestCase):
         # """test the addition function"""
        self.assertEqual(self.calc.add(1,3),4)
 
-    def test_substraction(self):
+    def test_subtraction(self):
        self.assertEqual(self.calc.subtract(2,3),5)
        self.assertEqual(self.calc.add(1,3),4)
 
